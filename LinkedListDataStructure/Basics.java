@@ -32,7 +32,7 @@ public class Basics
         while(temp!=null)
         {
             System.out.print(temp.data+" ");
-            temp=temp.next;     // this line is moving the temp node forward , allowing all elements printed.
+            temp=temp.next;     // this line is moving temp node forward , allowing all elements printed.
         }
 
     }
