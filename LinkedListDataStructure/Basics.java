@@ -25,5 +25,15 @@ public class Basics
         b.next=c;
         c.next=d;
 
+
+        // printing elements of linked list using loop.
+
+        Node temp=a;    // pointing temp node to node
+        while(temp!=null)
+        {
+            System.out.print(temp.data+" ");
+            temp=temp.next;     // this line is moving the temp node forward , allowing all elements printed.
+        }
+
     }
 }
