@@ -2,6 +2,7 @@ package LinkedListDataStructure;
 
 public class Basics
 {
+
     static class Node
     {
         int data;
