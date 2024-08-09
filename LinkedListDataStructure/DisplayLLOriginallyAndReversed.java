@@ -4,7 +4,7 @@ public class DisplayLLOriginallyAndReversed
 {
 
 
-    static class Node       // node class
+    static class Node       // node  class
     {
         int data;
         Node next;      // this is the address of the next node.
