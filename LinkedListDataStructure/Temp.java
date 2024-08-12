@@ -1,6 +1,6 @@
 package LinkedListDataStructure;
 
-public class Temp
+public class Temp   // temp class.
 {
 
     public static class Node       // node  class
