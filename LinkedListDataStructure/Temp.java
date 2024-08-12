@@ -39,7 +39,7 @@ public class Temp
         linkedList ll=new linkedList();
         ll.insertAtEnd(5);
 
-        // displaying the LL
+        // displaying the LL iteratively
         System.out.print("LL is : ");
 
         Node temp;
