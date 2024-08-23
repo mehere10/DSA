@@ -7,7 +7,7 @@ public class Temp   // temp class.
     {
         int data;
         Node next;      // this is the address of the next node..
-        public Node(int data)       // constructor.
+        public Node(int data)       // constructor..
         {
             this.data=data;
         }
