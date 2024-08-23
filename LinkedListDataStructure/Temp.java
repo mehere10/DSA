@@ -31,7 +31,7 @@ public class Temp   // temp class.
             {
                 tail.next=temp;
             }
-            tail=temp;  // because this operation is being performed in both the cases , ie tail is always equal to temp.
+            tail=temp;  // because this operation is being performed in both the cases , that is tail is always equal to temp.
         }
     }
     public static void main(String[] args)
