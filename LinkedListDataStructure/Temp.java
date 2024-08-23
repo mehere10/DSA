@@ -6,8 +6,8 @@ public class Temp   // temp class.
     public static class Node       // node  class
     {
         int data;
-        Node next;      // this is the address of the next node.
-        public Node(int data)       // constructor
+        Node next;      // this is the address of the next node..
+        public Node(int data)       // constructor.
         {
             this.data=data;
         }
