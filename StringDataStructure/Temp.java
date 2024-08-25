@@ -8,7 +8,7 @@ public class Temp
             // same as (2130466 >> (ch & 31)) & 1;
         }
     public static void main(String[] args) {
-//        Scanner sc=new Scanner(System.in);
+//        Scanner sc=new Scanner(System.in);\////
 //
 //        String s="Nishant";
 //
