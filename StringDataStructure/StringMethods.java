@@ -9,12 +9,13 @@ public class StringMethods
 
         String fullName=fname.concat(" "+lName);        // full name
 
-        System.out.println(fullName.length());      // printing the  length of a string.
+        // printing the  length of a string.
+        System.out.println(fullName.length());
 
         // charAt method
         for(int i=0;i<fullName.length();i++)
         {
-            System.out.print(fullName.charAt(i)+"");
+            System.out.print(fullName.charAt(i));
         }
 
     }
