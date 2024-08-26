@@ -1,6 +1,6 @@
-package StringDataStructure;
+package StringDataStructure.PractiseQuestion;
 
-public class PractiseQuestion
+public class QuestionTwo
 {
     public static void main(String[] args)
     {
@@ -16,4 +16,3 @@ public class PractiseQuestion
 
     }
 }
-
