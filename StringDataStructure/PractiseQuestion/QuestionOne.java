@@ -1,6 +1,6 @@
 package StringDataStructure.PractiseQuestion;
 
-public class Temp
+public class QuestionOne
 {
     static String myMethod(String str)
     {
