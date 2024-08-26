@@ -2,22 +2,29 @@ package StringDataStructure;
 import java.util.*;
 public class Temp
 {
-        static int isVowel(char ch)
+    static String myMethod(String str)
+    {
+        String result="";
+        for(int i=0;i<str.length();i++)
         {
-            return (0x208222 >> (ch & 0x1f)) & 1;
-            // same as (2130466 >> (ch & 31)) & 1;
+            if(str.charAt(i)=='a' || str.charAt(i)=='e' || str.charAt(i)=='i'
+                    || str.charAt(i)=='o' || str.charAt(i)=='u' )
+            {
+                result=result+"v";
+            }
+            else
+            {
+                result=result+"c";
+            }
         }
+        return result;
+    }
     public static void main(String[] args) {
-//        Scanner sc=new Scanner(System.in);\////
-//
-//        String s="Nishant";
-//
-//        char result=s.charAt(0);
-//        int length=s.length();
-//        System.out.println(result);
-//        System.out.println(length);
-        System.out.println("a is " + isVowel('a'));
-        System.out.println("x is " + isVowel('x'));
+
+        String str="hello";     // cvccv
+
+        System.out.println(myMethod(str));
+
 
     }
 }
