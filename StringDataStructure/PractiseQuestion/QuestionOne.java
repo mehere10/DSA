@@ -21,7 +21,7 @@ public class QuestionOne
     }
     public static void main(String[] args) {
 
-        String str="hello";     // expected o/p->   cvccv
+        String str="hello";     // expected o/p   cvccv
 
         System.out.println(myMethod(str));
 
