@@ -1,6 +1,6 @@
 package StringDataStructure.PractiseQuestion;
 
-public class QuestionTwo
+public class printAllSubstringOfAString
 {
     public static void main(String[] args)
     {
