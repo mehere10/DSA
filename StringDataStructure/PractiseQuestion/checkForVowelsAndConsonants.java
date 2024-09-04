@@ -1,6 +1,6 @@
 package StringDataStructure.PractiseQuestion;
 
-public class QuestionOne
+public class checkForVowelsAndConsonants
 {
     static String myMethod(String str)
     {
