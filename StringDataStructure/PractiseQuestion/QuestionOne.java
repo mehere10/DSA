@@ -17,7 +17,7 @@ public class QuestionOne
                 result=result+"c";
             }
         }
-        return result;
+        return result;  // return result
     }
     public static void main(String[] args) {
 
