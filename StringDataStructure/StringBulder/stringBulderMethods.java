@@ -35,6 +35,6 @@ public class stringBulderMethods
         System.out.println("Original string : "+s);
         System.out.println("Append method : "+strAppend(s));   // append
         System.out.println("Set Char method : "+setCharacter(s));   // setCharAt
-        System.out.println("Insert method : "+insertAt(s));
+        System.out.println("Insert method : "+insertAt(s)); // insert
     }
 }
