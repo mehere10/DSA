@@ -23,11 +23,18 @@ public class stringBulderMethods
         result.setCharAt(0,'M');
         return result.toString();
     }
-    static String
+    static String insertAt(String str)
+    {
+        StringBuilder result=new StringBuilder(str);
+        result.insert(1,'e');
+        return result.toString();
+    }
     public static void main(String[] args) {
 
         String s="Hello";
-        System.out.println(strAppend(s));   // append
-        System.out.println(setCharacter(s));   // setCharAt
+        System.out.println("Original string : "+s);
+        System.out.println("Append method : "+strAppend(s));   // append
+        System.out.println("Set Char method : "+setCharacter(s));   // setCharAt
+        System.out.println("Insert method : "+insertAt(s));
     }
 }
