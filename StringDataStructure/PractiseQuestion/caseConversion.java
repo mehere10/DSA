@@ -2,9 +2,9 @@ package StringDataStructure.PractiseQuestion;
 
 import java.util.Scanner;
 
-public class upperCaseToLower
+public class caseConversion     // better approach
 {
-    static String caseConversion()
+    static String caseConvert()
     {
         Scanner sc=new Scanner(System.in);
 
@@ -32,7 +32,7 @@ public class upperCaseToLower
     }
     public static void main(String[] args) {
 
-        String result=caseConversion();
+        String result=caseConvert();
         System.out.println(result);
     }
 }
