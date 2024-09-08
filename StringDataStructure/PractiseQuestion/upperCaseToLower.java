@@ -1,2 +1,4 @@
-package StringDataStructure.PractiseQuestion;public class upperCaseToLower {
+package StringDataStructure.PractiseQuestion;
+
+public class upperCaseToLower {
 }
