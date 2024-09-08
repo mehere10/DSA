@@ -23,10 +23,20 @@ public class stringBulderMethods
         result.setCharAt(0,'M');
         return result.toString();
     }
+
+    //insert method
     static String insertAt(String str)
     {
         StringBuilder result=new StringBuilder(str);
         result.insert(1,'e');
+        return result.toString();
+    }
+
+    //deleteCharAt method
+    static String deleteCharacter(String str)
+    {
+        StringBuilder result=new StringBuilder(str);
+        result.deleteCharAt(4);
         return result.toString();
     }
     public static void main(String[] args) {
@@ -36,5 +46,6 @@ public class stringBulderMethods
         System.out.println("Append method : "+strAppend(s));   // append
         System.out.println("Set Char method : "+setCharacter(s));   // setCharAt
         System.out.println("Insert method : "+insertAt(s)); // insert
+        System.out.println("Delete method : "+deleteCharacter(s));  // delete character
     }
 }
