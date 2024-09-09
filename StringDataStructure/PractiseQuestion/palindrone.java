@@ -11,7 +11,7 @@ public class palindrone {
         boolean flag=true; // we created a checkpoint , it means by default a string is considered palindrome.
         while(i<j){
             if(str.charAt(i)!=str.charAt(j)){
-                flag=false;
+                flag=false; // if characters does not match the flag will be set to false.
                 break;
             }
             i++;
@@ -23,7 +23,7 @@ public class palindrone {
     }
     public static void main(String[] args) {
 
-        Scanner sc=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);  // taking input
         System.out.println("Enter a string : ");
         String str=sc.nextLine();
         isPalindrome(str);
