@@ -25,5 +25,8 @@ public class reverseASentence {
     }
     public static void main(String[] args) {
         String str="I am an online educator";
+        String result=reverse(str);
+
+        System.out.println(result) ;
     }
 }
