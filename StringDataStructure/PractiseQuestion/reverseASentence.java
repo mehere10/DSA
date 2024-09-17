@@ -22,7 +22,7 @@ public class reverseASentence {
                 sb=new StringBuilder(" ");    // deleting the entire string builder
             }
         }
-
+        return ans;
     }
     public static void main(String[] args) {
         String str="I am an online teacher";
