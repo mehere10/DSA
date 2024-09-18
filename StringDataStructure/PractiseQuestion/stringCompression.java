@@ -18,7 +18,7 @@ public class stringCompression {
                 ans.append(curr);
             }
         }
-        if(count>1)ans.append(count);
+        if(count>1)ans.append(count);   // if the count is one it will not display the integer 1
         return ans.toString();
     }
     public static void main(String[] args) {
