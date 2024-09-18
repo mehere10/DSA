@@ -13,7 +13,7 @@ public class stringCompression {
                 count++;
             }
             else{
-                if(count>1)ans.append(count);
+                if(count>1)ans.append(count);   // if the count is one it will not display the integer 1
                 count=1;
                 ans.append(curr);
             }
