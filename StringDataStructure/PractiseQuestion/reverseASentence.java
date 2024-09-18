@@ -7,21 +7,25 @@ public class reverseASentence {
         String ans="";
 
         // create an empty stringBuilder String
-        StringBuilder sb=new StringBuilder("");
+        StringBuilder temp=new StringBuilder("");
 
         // traversing through original string
         for(int i=0;i<str.length();i++){
             char ch=str.charAt(i);      // current character
             if(ch!=' '){
-                sb.append(ch);
+                temp.append(ch);
             }
             else{
-                sb.reverse();
-                ans+=sb;
+                temp.reverse();
+                ans+=temp;
                 ans+=" ";
-                sb=new StringBuilder(" ");    // deleting the entire string builder
+                temp=new StringBuilder(" ");    // deleting the entire string builder
             }
         }
+
+        // this code runs once to reverse the last part of a string
+        temp.reverse();
+        ans+=temp;
         return ans;
     }
     public static void main(String[] args) {
