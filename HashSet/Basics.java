@@ -1,6 +1,6 @@
 package HashSet;
 import java.util.HashSet;
-public class Temp {
+public class Basics {
     public static void main(String[] args) {
         HashSet<Integer> set=new HashSet<>();
 
