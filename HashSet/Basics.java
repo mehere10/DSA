@@ -30,7 +30,7 @@ public class Basics {
             System.out.print(it.next()+" ");
         }
 
-        // to delete all elements in the array.
+        // to delete all elements in the hashset.
         set.clear();
     }
 }
