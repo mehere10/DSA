@@ -21,7 +21,7 @@ public class Basics {
             System.out.print(e.getValue());
             System.out.println("");
         }
-        // displaying
+        // displaying the entire map
         System.out.println(map);
     }
 }
