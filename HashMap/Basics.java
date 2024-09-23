@@ -14,6 +14,13 @@ public class Basics {
         // searching.
         System.out.println(map.containsKey("China"));   // if a key is present in map  it will display true
 
+        // iteration in hashMap
+        System.out.println("Iterating in the map.");
+        for(Map.Entry<String , Integer> e:map.entrySet()){
+            System.out.print(e.getKey()+" ");
+            System.out.print(e.getValue());
+            System.out.println("");
+        }
         // displaying
         System.out.println(map);
     }
