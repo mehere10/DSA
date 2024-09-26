@@ -12,7 +12,7 @@ public class Basics {
         map.put("China",150);
 
         // searching.
-        System.out.println(map.containsKey("China"));   // if a key is present in map  it will display true
+        System.out.println(map.containsKey("China"));   // if the key is present in map  it will display true
 
         // iteration in hashMap
         System.out.println("Iterating in the map : ");
