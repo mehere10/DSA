@@ -4,7 +4,7 @@ import java.util.*;
 public class Basics {
     public static void main(String[] args) {
         // key(type),value(type)
-        HashMap<String,Integer> map=new HashMap<>();
+        HashMap<String,Integer> map=new HashMap<>();    // create a hash map {syntax}.
 
         // insertion.
         map.put("India",120);
